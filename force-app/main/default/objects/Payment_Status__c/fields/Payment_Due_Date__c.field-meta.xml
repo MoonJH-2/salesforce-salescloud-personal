@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Due_Date__c</fullName>
+    <label>납부 기일</label>
+    <type>Date</type>
+    <required>true</required>
+    <description>The due date for this payment installment.</description>
+    <externalId>false</externalId>
+    <trackTrending>false</trackTrending>
+</CustomField>
