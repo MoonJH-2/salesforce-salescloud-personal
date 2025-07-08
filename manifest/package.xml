@@ -32,5 +32,11 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
+
+    <types>
+        <members>Order</members> <members>PaymentStatus__c</members> <members
+    >Trigger_Exception_Log__c</members> <name>CustomObject</name>
+    </types>
+    
     <version>64.0</version>
 </Package>

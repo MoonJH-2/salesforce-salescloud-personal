@@ -1,31 +1,23 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Status__c</fullName>
-    <label>납부 상태</label>
-    <type>Picklist</type>
-    <description
-  >Indicates the current status of the payment installment.</description>
-    <externalId>false</externalId>
-    <required>true</required>
+    <label>Status</label>
+    <required>false</required>
     <trackTrending>false</trackTrending>
+    <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
                 <fullName>미납</fullName>
-                <default>true</default>
+                <default>false</default>
                 <label>미납</label>
             </value>
             <value>
-                <fullName>납부 완료</fullName>
+                <fullName>완납</fullName>
                 <default>false</default>
-                <label>납부 완료</label>
-            </value>
-            <value>
-                <fullName>연체</fullName>
-                <default>false</default>
-                <label>연체</label>
+                <label>완납</label>
             </value>
         </valueSetDefinition>
     </valueSet>
