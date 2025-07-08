@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>Accept</actionName>
@@ -143,23 +143,26 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
+    <description
+  >납부 현황을 관리하는 Custom Object입니다. Order와 연결되어 분할 납부 정보를 저장합니다.</description>
+    <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>false</enableHistory>
+    <enableHistory>true</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Payment status</label>
+    <label>Payment Status</label>
     <nameField>
-        <label>Payment status Name</label>
-        <type>Text</type>
+        <displayFormat>PS-{00000}</displayFormat>
+        <label>Payment Status Number</label>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Payment status</pluralLabel>
-    <searchLayouts></searchLayouts>
+    <pluralLabel>Payment Statuses</pluralLabel>
+    <searchLayouts />
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
